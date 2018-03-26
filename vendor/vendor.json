@@ -255,12 +255,6 @@
 			"revisionTime": "2016-08-30T13:53:28Z"
 		},
 		{
-			"checksumSHA1": "93uHIq25lffEKY47PV8dBPD+XuQ=",
-			"path": "gopkg.in/fsnotify.v1",
-			"revision": "a8a77c9133d2d6fd8334f3260d06f60e8d80a5fb",
-			"revisionTime": "2016-06-29T01:11:04Z"
-		},
-		{
 			"checksumSHA1": "SPMXWeoFQa5z0pLPmqpcFzyHqQQ=",
 			"path": "gopkg.in/yaml.v2",
 			"revision": "31c299268d302dd0aa9a0dcf765a3d58971ac83f",
