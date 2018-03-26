@@ -161,7 +161,7 @@ func Test_createFileOutput(t *testing.T) {
 	c.Set("output.file.user", "root")
 	c.Set("output.file.group", "root")
 	w, err = createFileOutput(c)
-	assert.EqualError(t, err, "Could not chown output file. Error: chown /tmp/go-audit.test.log: operation not permitted")
+	assert.EqualError(t, err, "Could not chown output file. Error: chown " + path.Join(os.TempDir(), "go-audit.test.log") + ": operation not permitted")
 	assert.Nil(t, w)
 
 	// All good
